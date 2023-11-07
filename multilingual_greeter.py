@@ -1,4 +1,4 @@
-"""Prints a greeting"""
+# Prints a greeting
 def greet(name, lang):
     if lang == 1:
         print("Hello there, " + name)
@@ -9,11 +9,11 @@ def greet(name, lang):
     else:
         print("Not supported")
 
-"""Prompts user for name"""
+# Prompts user for name"""
 def name_input():
    return input("Enter name: ")
    
-"""Prompts user to select a language"""
+# Prompts user to select a language"""
 def language_input():
     print("Enter a number to select a language")
     print("1. English")
@@ -22,6 +22,8 @@ def language_input():
     return int(input())
 
 
-"""Pass name_input to greet"""
+# Pass name_input to greet
 greet(name_input(),language_input())
+
+
 
